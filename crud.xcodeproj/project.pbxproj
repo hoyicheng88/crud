@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3717A482256D4AB4009A8D73 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3717A481256D4AB4009A8D73 /* BarView.swift */; };
+		3717A48A256D4E32009A8D73 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3717A489256D4E32009A8D73 /* Bar.swift */; };
 		379F466F256BBF4800340F65 /* crudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379F466E256BBF4800340F65 /* crudApp.swift */; };
 		379F4671256BBF4800340F65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379F4670256BBF4800340F65 /* ContentView.swift */; };
 		379F4673256BBF4C00340F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379F4672256BBF4C00340F65 /* Assets.xcassets */; };
 		379F4676256BBF4C00340F65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379F4675256BBF4C00340F65 /* Preview Assets.xcassets */; };
 		379F4681256BBF4C00340F65 /* crudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379F4680256BBF4C00340F65 /* crudTests.swift */; };
 		379F468C256BBF4C00340F65 /* crudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379F468B256BBF4C00340F65 /* crudUITests.swift */; };
+		379F469D256BBFA600340F65 /* OppoentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379F469C256BBFA600340F65 /* OppoentRow.swift */; };
+		379F46A2256BBFF200340F65 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379F46A1256BBFF200340F65 /* Data.swift */; };
+		379F46A7256BC69300340F65 /* OppoentEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379F46A6256BC69300340F65 /* OppoentEditor.swift */; };
+		379F46AD256BDDAB00340F65 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379F46AC256BDDAB00340F65 /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3717A481256D4AB4009A8D73 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		3717A489256D4E32009A8D73 /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
 		379F466B256BBF4800340F65 /* crud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		379F466E256BBF4800340F65 /* crudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crudApp.swift; sourceTree = "<group>"; };
 		379F4670256BBF4800340F65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +53,10 @@
 		379F4687256BBF4C00340F65 /* crudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		379F468B256BBF4C00340F65 /* crudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crudUITests.swift; sourceTree = "<group>"; };
 		379F468D256BBF4C00340F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379F469C256BBFA600340F65 /* OppoentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OppoentRow.swift; sourceTree = "<group>"; };
+		379F46A1256BBFF200340F65 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		379F46A6256BC69300340F65 /* OppoentEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OppoentEditor.swift; sourceTree = "<group>"; };
+		379F46AC256BDDAB00340F65 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				379F466E256BBF4800340F65 /* crudApp.swift */,
+				379F46AC256BDDAB00340F65 /* ChartView.swift */,
+				379F46A1256BBFF200340F65 /* Data.swift */,
+				379F46A6256BC69300340F65 /* OppoentEditor.swift */,
 				379F4670256BBF4800340F65 /* ContentView.swift */,
+				379F469C256BBFA600340F65 /* OppoentRow.swift */,
+				3717A481256D4AB4009A8D73 /* BarView.swift */,
+				3717A489256D4E32009A8D73 /* Bar.swift */,
 				379F4672256BBF4C00340F65 /* Assets.xcassets */,
 				379F4677256BBF4C00340F65 /* Info.plist */,
 				379F4674256BBF4C00340F65 /* Preview Content */,
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				379F46AD256BDDAB00340F65 /* ChartView.swift in Sources */,
+				3717A48A256D4E32009A8D73 /* Bar.swift in Sources */,
+				379F469D256BBFA600340F65 /* OppoentRow.swift in Sources */,
 				379F4671256BBF4800340F65 /* ContentView.swift in Sources */,
+				379F46A7256BC69300340F65 /* OppoentEditor.swift in Sources */,
+				3717A482256D4AB4009A8D73 /* BarView.swift in Sources */,
 				379F466F256BBF4800340F65 /* crudApp.swift in Sources */,
+				379F46A2256BBFF200340F65 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
