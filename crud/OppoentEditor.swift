@@ -16,9 +16,7 @@ struct OppoentEditor: View {
     @State private var winscore=0
     @State private var losescore=0
     @State private var win = true
-    var disabledForm:Bool{
-        name.isEmpty || (selectedIndex==0)
-    }
+   
     let dateFormatter: DateFormatter = {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy/MM/dd"
@@ -56,7 +54,6 @@ struct OppoentEditor: View {
             self.preMode.wrappedValue.dismiss()
             
         }
-        .disabled(disabledForm)
         .foregroundColor(.orange))
         .onAppear{
             if let editOppoent = self.editOppoent{
